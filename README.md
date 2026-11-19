@@ -138,19 +138,24 @@ ai-website-analyzer/
 ## 🚀 Installation & Loading into Google Chrome
 
 ### Step 1: Install Dependencies
+
 Open PowerShell or Terminal in the project root:
+
 ```bash
 cd D:\chrome_extension
 npm install
 ```
 
 ### Step 2: Build the Extension Package
+
 ```bash
 npm run build
 ```
+
 This compiles the React TypeScript dashboard and merges it with the extension assets into the `dist/` directory.
 
 ### Step 3: Load into Google Chrome
+
 1. Open Google Chrome.
 2. Navigate to: `chrome://extensions/`
 3. Toggle on **"Developer mode"** in the top right corner.
